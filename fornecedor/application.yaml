@@ -1,8 +1,8 @@
 spring:
   datasource:
-    password: passtodev
-    url: jdbc:mysql://localhost:3306/microservices-dev?serverTimezone=UTC
-    username: dev
+    password: Root@123
+    url: jdbc:mysql://localhost:3306/microservices?serverTimezone=UTC
+    username: root
   jpa:
     generate-ddl: true
     hibernate:
